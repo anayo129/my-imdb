@@ -1,17 +1,17 @@
 import { Target } from "./target";
 
 export const MOVIES: Target[] = [
-  {imagen: "imagen1", calificacion: 9.4, nombre: "the last of us", link_trailer:"/link1"},
-  {imagen: "imagen2", calificacion: 7.2, nombre: "el menu", link_trailer:"/link2"},
-  {imagen: "imagen3", calificacion: 7.6, nombre: "Babylon", link_trailer:"/link3"},
-  {imagen: "imagen4", calificacion: 7.8, nombre: "almas en pena", link_trailer:"/link4"},
-  {imagen: "imagen5", calificacion: 7.2, nombre: "puñales por la espalda", link_trailer:"/link5"},
-  {imagen: "imagen6", calificacion: 8.2, nombre: "miercoles", link_trailer:"/link6"},
-  {imagen: "imagen7", calificacion: 7.7, nombre: "los fabelman", link_trailer:"/link7"},
-  {imagen: "imagen8", calificacion: 7.6, nombre: "el peor vecino del mundo", link_trailer:"/link8"},
-  {imagen: "imagen9", calificacion: 7.8, nombre: "el gato con botas: el ultimo deseo", link_trailer:"/link9"},
-  {imagen: "imagen10", calificacion: 8.0, nombre: "todo a la vez en todas partes", link_trailer:"/link10"},
-  {imagen: "imagen11", calificacion: 8.0, nombre: "la ballena", link_trailer:"/link11"},
-  {imagen: "imagen12", calificacion: 7.8, nombre: "avatar", link_trailer:"/link12"},
+  {imagen: "../../assets/img/img-movies/the last house.jpeg", calificacion: 9.4, nombre: "the last house", link_trailer:"https://www.youtube.com/watch?v=2EZyJxabVck&ab_channel=RottenTomatoesClassicTrailers"},
+  {imagen: "../../assets/img/img-movies/menu.jpeg", calificacion: 7.2, nombre: "el menu", link_trailer:"https://www.youtube.com/watch?v=e0n8hdMh3-k&ab_channel=20thCenturyStudiosEspa%C3%B1a"},
+  {imagen: "../../assets/img/img-movies/babylon.jpeg", calificacion: 7.6, nombre: "Babylon", link_trailer:"https://www.youtube.com/watch?v=gBil8RpweBE&ab_channel=ParamountPicturesSpain"},
+  {imagen: "../../assets/img/img-movies/almas en pena.jpg", calificacion: 7.8, nombre: "almas en pena", link_trailer:"https://www.youtube.com/watch?v=tgg9HijddIo&ab_channel=TrailersInSpanish"},
+  {imagen: "../../assets/img/img-movies/cuchillos afuera.jpeg", calificacion: 7.2, nombre: "puñales por la espalda", link_trailer:"https://www.youtube.com/watch?v=tFXrdgtNBD4&ab_channel=NetflixLatinoam%C3%A9rica"},
+  {imagen: "../../assets/img/img-movies/miercoles.jpeg", calificacion: 8.2, nombre: "miercoles", link_trailer:"https://www.youtube.com/watch?v=gmp7LTKnVPo&ab_channel=NetflixLatinoam%C3%A9rica"},
+  {imagen: "../../assets/img/img-movies/fabelmans.jpeg", calificacion: 7.7, nombre: "the fabelmans", link_trailer:"https://www.youtube.com/watch?v=PSpWKovHFf8&ab_channel=UniversalPicturesM%C3%A9xico"},
+  {imagen: "../../assets/img/img-movies/un vecino gruñon.jpeg", calificacion: 7.6, nombre: "el peor vecino del mundo", link_trailer:"https://www.youtube.com/watch?v=VF3dCev5Zm8&ab_channel=SonyPicturesM%C3%A9xico"},
+  {imagen: "../../assets/img/img-movies/el gato con botas.jpeg", calificacion: 7.8, nombre: "el gato con botas: el ultimo deseo", link_trailer:"https://www.youtube.com/watch?v=18v5EPO5ySs&ab_channel=UniversalPicturesM%C3%A9xico"},
+  {imagen: "../../assets/img/img-movies/todo en todas partes.jpeg", calificacion: 8.0, nombre: "todo a la vez en todas partes", link_trailer:"https://www.youtube.com/watch?v=PkhHfhmC6cA&ab_channel=Cin%C3%A9polis"},
+  {imagen: "../../assets/img/img-movies/la ballena.jpeg", calificacion: 8.0, nombre: "la ballena", link_trailer:"https://www.youtube.com/watch?v=ZQMdtjQnyo4&ab_channel=SensaCineTRAILERS"},
+  {imagen: "../../assets/img/img-movies/avatar.jpeg", calificacion: 7.8, nombre: "avatar", link_trailer:"https://www.youtube.com/watch?v=bDFKIs4v0B4&ab_channel=DisneyStudiosLA"},
 
 ];
