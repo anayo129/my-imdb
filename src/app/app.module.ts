@@ -11,6 +11,8 @@ import { BsMenuComponent } from './header/bs-menu/bs-menu.component';
 import { MenuSidebarComponent } from './header/menu-sidebar/menu-sidebar.component';
 import { AccordionMenuComponent } from './header/menu-sidebar/accordion-menu/accordion-menu.component';
 import { MoviesComponent } from './movies/movies.component';
+import { MovieSectionComponent } from './movie-section/movie-section.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -22,8 +24,10 @@ import { MoviesComponent } from './movies/movies.component';
     MenuSidebarComponent,
     AccordionMenuComponent,
     MoviesComponent,
+    MovieSectionComponent,
+    
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, SwiperModule],
   providers: [],
   bootstrap: [AppComponent],
 })
