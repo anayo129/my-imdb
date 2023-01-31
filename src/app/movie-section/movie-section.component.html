@@ -1,16 +1,16 @@
-<div *ngFor="let movie of targetMovies">
-    < class="card-group">
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">{{movie.calificacion}}</h5>
-            <h4 class="card-title">{{movie.nombre}}</h4>
+<div class="card-group" >
+  <div *ngFor="let movie of targetMovies">
+          <div class="card border-dark text-white bg-dark mb-3" style="max-width: 18rem;  max-width: 14rem;">
+            <img class="card-img-top" src = {{movie.imagen}} alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{movie.calificacion}}</h5>
+              <h4 class="card-title">{{movie.nombre}}</h4>
+            </div>
+            <div class="card-footer">
+              <small class="btn">Trailer</small>
+            </div>
           </div>
-          <div class="card-footer">
-            <small class="btn">Trailer</small>
-          </div>
-        </div>
-        
+          
+  </div>
 </div>
-
   
